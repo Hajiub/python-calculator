@@ -65,6 +65,6 @@ def main():
     print("{} {} = {}".format(num1, num2, result))
 
 
-# The main won't be called if you imported this file
+
 if __name__ == "__main__":
     main()
