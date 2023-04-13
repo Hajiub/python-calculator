@@ -3,29 +3,29 @@ from typing import Union
 Number = Union[int, float]
 
 def addition(num1:Number, num2:Number) -> Number:
-    """ Return the sum of two numbers"""
+    """ Returns the sum of two numbers"""
     return num1 + num2
 
 
 def subtraction(num1:Number, num2:Number) -> Number:
-    """ Return the difference between two numbers """
+    """ Returns the difference between two numbers """
     return num1 - num2
 
 
 def multiplication(num1:Number, num2:Number) -> Number:
-    """ Return the product of two numbers """
+    """ Returns the product of two numbers """
     return num1 * num2
 
 
 def division(num1:Number, num2:Number) ->Number:
-     """Return the quotient of two numbers. Raises ZeroDivisionError if num2 is zero."""
+     """Returns the quotient of two numbers. Raises ZeroDivisionError if num2 is zero."""
      if num2 != 0:
          return num1 / num2
      raise ZeroDivisionError("Cannot divide by zero")
 
 
 def power(num1:Number, num2:Number) -> Number:
-    """Return num1 raised to the power of num2."""
+    """Returns num1 raised to the power of num2."""
     return num1 ** num2
 
 
