@@ -1,6 +1,6 @@
 from typing import Union
 
-Number = [int, float]
+Number = Union[int, float]
 
 def addition(num1:Number, num2:Number) -> Number:
     """ Return the sum of two numbers"""
