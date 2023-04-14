@@ -62,7 +62,7 @@ def main():
             result = power(num1, num2)
         case _:
             result = "Unkown input,"
-    print("{} {} = {}".format(num1, num2, result))
+    print("{} {} {} = {}".format(num1, symbol, num2, result))
 
 
 
